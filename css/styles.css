@@ -195,6 +195,7 @@ nav .mobile-nav {
     font-size: 15px;
     padding: 0px;
     color: var(--text-color);
+    background-color: var(--light-background-color);
 }
 
 .hero-section .text .links {
@@ -232,20 +233,6 @@ nav .mobile-nav {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.hero-section nav {
-    display: flex; /* Flexbox for layout */
-    align-items: center; /* Vertically center items */
-}
-
-.hero-section .logo-container {
-    margin-right: 20px; /* Space between logo and menu */
-}
-
-.hero-section .logo {
-    width: 50px; /* Adjust size as needed */
-    height: auto; /* Maintain aspect ratio */
 }
 
 /* NAVIGATION ARROW */
@@ -329,7 +316,6 @@ nav .mobile-nav {
 /* SECTION 3: MADD LAB */
 .lab-info-section {
     margin-top: 30px; /* Space above the section */
-    background-color: #ffd700; 
 }
 
 .lab-info-section h2 {
@@ -337,7 +323,6 @@ nav .mobile-nav {
 }
 
 .lab-details {
-    background-color: #f9f9f9; /* Light background for emphasis */
     padding: 15px; /* Padding around the details */
     border-radius: 5px; /* Rounded corners */
 }
@@ -1036,10 +1021,6 @@ footer p {
         width: 275px;
         justify-content: center
     }
-    .hero-section .logo {
-        width: 40px; /* Smaller size for mobile */
-    }
-}
 
 
     /*SECTION 7: Skills */
