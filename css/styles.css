@@ -264,7 +264,54 @@ nav .mobile-nav {
 }
 
 
-/*SECTION 2: PROJECT GRID */
+/* Section 2: Coursework */
+.coursework-section {
+    padding: 0 50px;
+    margin: 50px 0;
+    display: grid;  /* Grid container */
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 20px; /* Space between grid items */
+    border: 2px solid var(--border-color);
+    border-image: linear-gradient(
+        45deg, var(--border-color) 1%, transparent 1%, transparent 99%, var(--border-color) 99%
+    ) 1;
+}
+
+.coursework-section h2 {
+    grid-column: span 2; /* Make the heading span across both columns */
+    font-size: 34px;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.course-card {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    padding: 15px; /* Space inside each course item */
+    transition: background-color 0.3s; /* Smooth background change */
+    background-color: var(--light-background-color); /* Light background for cards */
+}
+
+.course-card h3 {
+    font-size: 20px; /* Course title size */
+    color: var(--text-color);
+    margin-bottom: 10px; /* Space below title */
+}
+
+.course-card p {
+    font-size: 15px; /* Description size */
+    color: var(--text-color);
+    margin-top: 10px; /* Space above description */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .coursework-section {
+        grid-template-columns: 1fr; /* 1 column on smaller screens */
+    }
+}
+
+
+/*SECTION 3: PROJECT GRID */
 .project-grid-section {
     margin-bottom: 100px;
     margin-top: 50px;
