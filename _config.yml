@@ -19,6 +19,13 @@ external-links:    # input only your own url slug. The icons with missing entrie
   linkedin: samuel-tribble-a5071328b    # https://www.linkedin.com/in/samuel-tribble-a5071328b/
   github: sammyt07    # https://github.com/sammyt07/
 
+# MADD Lab Section - this shows my research lab.
+lab:
+  name: "Machine Learning and Autonomy for Diverse Domains (MADD) Lab"
+  description: "A lab dedicated to researching and designing safe perception and localization for autonomous navigation tasks, prioritizing adaptive solutions for ground, air, and space."
+  location: "Harvey Mudd College"
+  website: "https://sites.google.com/g.hmc.edu/madd-lab/home?authuser=0"
+
 # Publications Section - this shows my research work.
 publications:
 - title: "Synthetic Martian Terrain Generation Using Adaptive Diffusion Models"

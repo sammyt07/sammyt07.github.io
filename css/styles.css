@@ -312,7 +312,19 @@ nav .mobile-nav {
 }
 
 
-/*SECTION 3: PUBLICATIONS */
+/* SECTION 3: MADD LAB */
+.lab-info-section {
+    margin-top: 30px; /* Space above the section */
+}
+
+.lab-details {
+    background-color: #f9f9f9; /* Light background for emphasis */
+    padding: 15px; /* Padding around the details */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+/*SECTION 4: PUBLICATIONS */
 .publications-section {
     margin: 50px 0;
     text-align: center; /* Center the text */
@@ -343,7 +355,7 @@ nav .mobile-nav {
 }
 
 
-/*SECTION 4: PROJECT GRID */
+/*SECTION 5: PROJECT GRID */
 .project-grid-section {
     margin-bottom: 100px;
     margin-top: 50px;
@@ -456,7 +468,7 @@ nav .mobile-nav {
 }
 
 
-/*SECTION 5: Areas of Interest*/
+/*SECTION 6: Areas of Interest*/
 .areas-interest-section {
     margin-top: 30px; /* Space above the section */
 }
@@ -467,7 +479,7 @@ nav .mobile-nav {
 }
 
 
-/* Section 6: Skills */
+/* Section 7: Skills */
 .skills-section {
     margin-bottom: 100px;
     display:flex;
@@ -523,7 +535,7 @@ nav .mobile-nav {
 }
 
 
-/* Section 7: Contact */
+/* Section 8: Contact */
 .contact-section {
     padding: 25px 25px;
     max-width: 600px;
@@ -847,7 +859,7 @@ footer p {
     }
     
 
-    /*   Section 4: Project-grid  */
+    /*   Section 5: Project-grid  */
     .project-grid-section .grid-container .project-card {
         max-width: 500px;
         height: 500px; 
@@ -937,7 +949,7 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   
-    /*SECTION 6:Skills */
+    /*SECTION 7: Skills */
     .contact-section .group{
         flex-direction: column;
     }
@@ -1007,7 +1019,7 @@ footer p {
     }
 
 
-    /*SECTION 6: Skills */
+    /*SECTION 7: Skills */
     .skills-section {
         padding: 0 5px
     }
@@ -1017,7 +1029,7 @@ footer p {
     }
 
 
-    /*Section 7: Contact */
+    /*Section 8: Contact */
     .contact-section{
         padding: 0 20px
     }
