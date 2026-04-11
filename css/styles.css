@@ -152,8 +152,6 @@ nav .mobile-nav {
     padding: 0 50px;
     margin: 50px 0;
     display: flex;  /* This makes .hero-section a flex container */
-    background-color: var(--light-background-color);
-
 
     border: 2px solid var(--border-color);
     border-image: linear-gradient(
@@ -319,12 +317,14 @@ nav .mobile-nav {
 }
 
 .lab-info-section h2 {
+    font-size: 34px;
     text-align: center; /* Center the header text */
 }
 
 .lab-details {
     padding: 15px; /* Padding around the details */
     border-radius: 5px; /* Rounded corners */
+    text-align: center;
 }
 
 
