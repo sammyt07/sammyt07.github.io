@@ -62,6 +62,13 @@ skills:
     - Unreal Engine
     - Godot
     - Unity
+  - category: Mentoring and Project Management
+    tools:
+    - Lab Journaling
+    - Prioritizing Deadlines
+    - Google Calendar (for all scheduling)
+    - Google Drive (project file management)
+    - Discord (project communications)
 
 # Add personal email for contact.
 contact:
