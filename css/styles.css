@@ -456,7 +456,7 @@ nav .mobile-nav {
 
 
 
-/* SECTION 3: SKILLS */
+/* SECTION 5: SKILLS */
 .skills-section {
     margin-bottom: 100px;
     display:flex;
@@ -467,9 +467,6 @@ nav .mobile-nav {
     font-size: 34px;
     margin-bottom: 15px;
 }
-
-
-
 
 .skills-section .skill-categories {
     list-style: none;
@@ -515,7 +512,7 @@ nav .mobile-nav {
 }
 
 
-/* SECTION 4: CONTACT */
+/* SECTION 6: CONTACT */
 .contact-section {
     padding: 25px 25px;
     max-width: 600px;
@@ -839,7 +836,7 @@ footer p {
     }
     
 
-    /*   Section 2: Project-grid  */
+    /*   Section 4: Project-grid  */
     .project-grid-section .grid-container .project-card {
         max-width: 500px;
         height: 500px; 
@@ -929,7 +926,7 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   
-    /*SECTION 4:Contact */
+    /*SECTION 6:Contact */
     .contact-section .group{
         flex-direction: column;
     }
@@ -998,7 +995,7 @@ footer p {
         justify-content: center
     }
     
-    /*SECTION 3:Skills */
+    /*SECTION 5:Skills */
     .skills-section {
         padding: 0 5px
     }
@@ -1007,7 +1004,7 @@ footer p {
         font-size: 16px;
     }
 
-    /*SECTION 4: Contact */
+    /*SECTION 6: Contact */
     .contact-section{
         padding: 0 20px
     }
