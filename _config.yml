@@ -21,9 +21,8 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # MADD Lab Section - this shows my research lab.
 lab:
-  name: "Machine Learning and Autonomy for Diverse Domains (MADD) Lab"
+  name: "Machine Learning and Autonomy for Diverse Domains (MADD) at Harvey Mudd"
   description: "A lab dedicated to researching and designing safe perception and localization for autonomous navigation tasks, prioritizing adaptive solutions for ground, air, and space."
-  location: "Harvey Mudd College"
   website: "https://sites.google.com/g.hmc.edu/madd-lab/home?authuser=0"
 
 # Publications Section - this shows my research work.
@@ -39,7 +38,7 @@ publications:
     Terrain classifiers rely on high-quality datasets to enable Lunar and Mars rovers to navigate hazardous terrain. However, there is a significant lack of real terrain imagery from the Moon and Mars. Perhaps more importantly, most datasets like NASA's AI4Mars and the LabelMars project categorize a maximum of 6 terrain classes, leaving out edge cases and subsurface cavities. Our work bridges this gap by developing an adaptive framework to generate synthetic imagery of Lunar and Martian terrain classes, including terrain edge cases.  
 
 # Aerospace Interests Section - demonstrate roles for me to focus on.
-areas-of-interest:
+areas_of_interest:
 - Flight Test Software
 - RF Engineering
 - Missions Operations Engineering

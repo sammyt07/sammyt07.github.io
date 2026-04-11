@@ -4,10 +4,9 @@
     
     {% if site.lab %}
     <div class="lab-details">
-        <h3>Name: {{ site.lab.name }}</h3>
-        <p>Description: {{ site.lab.description }}</p>
-        <p>Location: {{ site.lab.location }}</p>
-        <p>Website: <a href="{{ site.lab.website }}" target="_blank">{{ site.lab.website }}</a></p>
+        <h3>{{ site.lab.name }}</h3>
+        <p>{{ site.lab.description }}</p>
+        <p><a href="{{ site.lab.website }}" target="_blank">{{ site.lab.website }}</a></p>
     </div>
     {% else %}
     <p>No lab information available.</p>

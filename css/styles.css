@@ -317,6 +317,10 @@ nav .mobile-nav {
     margin-top: 30px; /* Space above the section */
 }
 
+.lab-info-section h2 {
+    text-align: center; /* Center the header text */
+}
+
 .lab-details {
     background-color: #f9f9f9; /* Light background for emphasis */
     padding: 15px; /* Padding around the details */
