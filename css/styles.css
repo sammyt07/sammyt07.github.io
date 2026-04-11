@@ -63,7 +63,7 @@ p {
 /* NAVBAR */
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 25px 0;
     height: 80px;
     align-items: center;
@@ -77,6 +77,7 @@ nav .left a {
 }
 
 nav .right {
+    display: flex;
     gap: 15px;
 }
 
@@ -516,10 +517,10 @@ nav .mobile-nav {
 .contact-section {
     padding: 25px 25px;
     max-width: 600px;
-    margin: 0 auto; 
-    border-radius: 20px; 
-    margin-bottom: 100px;
-      
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 100px;      
 }
 
 .contact-section h2 {
