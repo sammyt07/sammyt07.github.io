@@ -311,7 +311,38 @@ nav .mobile-nav {
 }
 
 
-/*SECTION 3: PROJECT GRID */
+/*SECTION 3: PUBLICATIONS */
+.publications-section {
+    margin: 50px 0;
+    text-align: center; /* Center the text */
+}
+
+.publications-section h2 {
+    font-size: 34px;
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.publications-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.publications-section li {
+    margin: 10px 0; /* Space between publications */
+}
+
+.publications-section a {
+    color: var(--link-color); /* Use your link color */
+    text-decoration: underline; /* Underline the links */
+    transition: color 0.3s;
+}
+
+.publications-section a:hover {
+    color: var(--highlight-color); /* Change color on hover */
+}
+
+
+/*SECTION 4: PROJECT GRID */
 .project-grid-section {
     margin-bottom: 100px;
     margin-top: 50px;
