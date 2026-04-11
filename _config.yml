@@ -28,14 +28,14 @@ lab:
 # Publications Section - this shows my research work.
 publications:
 - title: "Synthetic Martian Terrain Generation Using Adaptive Diffusion Models"
-  published_in: "ScienceDirect"
+  published_in: "Procedia Computer Science, Volume 268, 2025, Pages 208-217"
   url: https://www.sciencedirect.com/science/article/pii/S1877050925025402
   conference:
     name: "Complex Adaptive Systems Conference with Theme: Trandiscplinary Systems and Solutions for Adaptability, CAS 2025"
     date: "March 5-7, 2025"
     location: MIT Campus, Wong Auditorium
   description: >-
-    Terrain classifiers rely on high-quality datasets to enable Lunar and Mars rovers to navigate hazardous terrain. However, there is a significant lack of real terrain imagery from the Moon and Mars. Perhaps more importantly, most datasets like NASA's AI4Mars and the LabelMars project categorize a maximum of 6 terrain classes, leaving out edge cases and subsurface cavities. Our work bridges this gap by developing an adaptive framework to generate synthetic imagery of Lunar and Martian terrain classes, including terrain edge cases.  
+    Terrain classifiers rely on high-quality datasets for Lunar and Mars rovers to navigate hazardous terrain. However, there's a significant lack of real Lunar and Martian terrain imagery, and datasets like NASA's AI4Mars and the LabelMars project categorize a maximum of 6 terrain classes, excluding rare terrain edge cases. We bridge gap with an adaptive framework to generate synthetic terrain imagery, including edge cases.  
 
 # Aerospace Interests Section - demonstrate roles for me to focus on.
 areas_of_interest:

@@ -279,7 +279,7 @@ nav .mobile-nav {
 
 .coursework-section h2 {
     grid-column: span 2; /* Make the heading span across both columns */
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 20px; /* Space below the heading */
 }
 
@@ -317,7 +317,7 @@ nav .mobile-nav {
 }
 
 .lab-info-section h2 {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center; /* Center the header text */
 }
 
@@ -345,6 +345,7 @@ nav .mobile-nav {
 }
 
 .publications-section li {
+    margin-top: 10px;
     margin: 10px 0; /* Space between publications */
 }
 
@@ -369,7 +370,7 @@ nav .mobile-nav {
    }
 
 .project-grid-section h2{
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 10px;
     padding: 0 10px;
 }
@@ -475,6 +476,7 @@ nav .mobile-nav {
 /*SECTION 6: Areas of Interest*/
 .areas-interest-section {
     margin-top: 30px; /* Space above the section */
+    margin-bottom: 30px;
 }
 
 .areas-interest-section ul {
@@ -491,7 +493,7 @@ nav .mobile-nav {
 }
 
 .skills-section h2 {
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 15px;
 }
 
@@ -550,7 +552,7 @@ nav .mobile-nav {
 }
 
 .contact-section h2 {
-    font-size: 34px;
+    font-size: 30px;
     text-align: center;
 }
 
