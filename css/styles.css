@@ -335,7 +335,7 @@ nav .mobile-nav {
 }
 
 .publications-section h2 {
-    font-size: 34px;
+    font-size: 26px;
     margin-bottom: 20px; /* Space below the heading */
 }
 
@@ -475,7 +475,6 @@ nav .mobile-nav {
 
 /*SECTION 6: Areas of Interest*/
 .areas-interest-section {
-    margin-top: 30px; /* Space above the section */
     margin-bottom: 50px;
 }
 
