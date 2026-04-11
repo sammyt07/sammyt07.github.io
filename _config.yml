@@ -21,8 +21,15 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Publications Section - this shows my research work.
 publications:
-- title: "Synthetic Martian Terrain Generation Using Adaptive Diffusion Models" 
+- title: "Synthetic Martian Terrain Generation Using Adaptive Diffusion Models"
+  published_in: "ScienceDirect"
   url: https://www.sciencedirect.com/science/article/pii/S1877050925025402
+  conference:
+    name: "Complex Adaptive Systems Conference with Theme: Trandiscplinary Systems and Solutions for Adaptability, CAS 2025"
+    date: "March 5-7, 2025"
+    location: MIT Campus, Wong Auditorium
+  description: >-
+    Terrain classifiers rely on high-quality datasets to enable Lunar and Mars rovers to navigate hazardous terrain. However, there is a significant lack of real terrain imagery from the Moon and Mars. Perhaps more importantly, most datasets like NASA's AI4Mars and the LabelMars project categorize a maximum of 6 terrain classes, leaving out edge cases and subsurface cavities. Our work bridges this gap by developing an adaptive framework to generate synthetic imagery of Lunar and Martian terrain classes, including terrain edge cases.  
 
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
@@ -34,7 +41,7 @@ skills:
     - Git/GitHub
     - C++
     - Python
-    - Linux (Ubuntu 20.04)
+    - Linux (Ubuntu 22.04)
   - category: Robotics
     tools:
     - ROS 2 (foxy/humble)
