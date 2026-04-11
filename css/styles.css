@@ -564,6 +564,20 @@ nav .mobile-nav {
     border-radius: 8px; /* Optional: rounded corners */
 }
 
+.small-image {
+    width: 80px; /* Set a smaller width for the chocolate image */
+}
+
+.cube-container {
+    position: fixed; /* Fixes the position on the screen */
+    right: 20px; /* Distance from the right side */
+    top: 100px; /* Distance from the top */
+}
+
+.companion-cube {
+    width: 150px; /* Adjust the size of the companion cube */
+}
+
 
 /* Section 8: Contact */
 .contact-section {
