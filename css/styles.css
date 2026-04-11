@@ -152,6 +152,7 @@ nav .mobile-nav {
     padding: 0 50px;
     margin: 50px 0;
     display: flex;  /* This makes .hero-section a flex container */
+    background-color: var(--light-background-color);
 
 
     border: 2px solid var(--border-color);
@@ -195,7 +196,6 @@ nav .mobile-nav {
     font-size: 15px;
     padding: 0px;
     color: var(--text-color);
-    background-color: var(--light-background-color);
 }
 
 .hero-section .text .links {
