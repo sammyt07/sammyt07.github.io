@@ -1,0 +1,16 @@
+<!-- SECTION 4: Areas of Interest -->
+<section id="areas-of-interest" class="areas-interest-section">
+    <h2>Areas of Interest</h2>
+    
+    {% if site.areas_of_interest %}
+    <div class="grid-container">
+        <ul>
+            {% for interest in site.areas_of_interest %}
+            <li>{{ interest }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% else %}
+    <p>No areas of interest available.</p>
+    {% endif %}
+</section>

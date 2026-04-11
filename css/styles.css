@@ -456,8 +456,18 @@ nav .mobile-nav {
 }
 
 
+/*SECTION 5: Areas of Interest*/
+.areas-interest-section {
+    margin-top: 30px; /* Space above the section */
+}
 
-/* SECTION 5: SKILLS */
+.areas-interest-section ul {
+    list-style-type: disc; /* Use bullets for the list */
+    padding-left: 20px; /* Indent the list */
+}
+
+
+/* Section 6: Skills */
 .skills-section {
     margin-bottom: 100px;
     display:flex;
@@ -513,7 +523,7 @@ nav .mobile-nav {
 }
 
 
-/* SECTION 6: CONTACT */
+/* Section 7: Contact */
 .contact-section {
     padding: 25px 25px;
     max-width: 600px;
@@ -927,7 +937,7 @@ footer p {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
   
-    /*SECTION 6:Contact */
+    /*SECTION 6:Skills */
     .contact-section .group{
         flex-direction: column;
     }
@@ -995,8 +1005,9 @@ footer p {
         width: 275px;
         justify-content: center
     }
-    
-    /*SECTION 5:Skills */
+
+
+    /*SECTION 6: Skills */
     .skills-section {
         padding: 0 5px
     }
@@ -1005,7 +1016,8 @@ footer p {
         font-size: 16px;
     }
 
-    /*SECTION 6: Contact */
+
+    /*Section 7: Contact */
     .contact-section{
         padding: 0 20px
     }
@@ -1014,12 +1026,9 @@ footer p {
         margin: 5px;
         border: none;
         box-shadow: none  
-      }
+    }
 
     .post-view .content {
         padding: 5px;
-      }
-
-      
+    }
 }
-

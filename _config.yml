@@ -31,6 +31,11 @@ publications:
   description: >-
     Terrain classifiers rely on high-quality datasets to enable Lunar and Mars rovers to navigate hazardous terrain. However, there is a significant lack of real terrain imagery from the Moon and Mars. Perhaps more importantly, most datasets like NASA's AI4Mars and the LabelMars project categorize a maximum of 6 terrain classes, leaving out edge cases and subsurface cavities. Our work bridges this gap by developing an adaptive framework to generate synthetic imagery of Lunar and Martian terrain classes, including terrain edge cases.  
 
+# Aerospace Interests Section - demonstrate roles for me to focus on.
+areas-of-interest:
+- Flight Test Software
+- RF Engineering
+- Missions Operations Engineering
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:

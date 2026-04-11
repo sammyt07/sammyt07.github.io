@@ -1,4 +1,4 @@
-<!-- SECTION 4: Publications -->
+<!-- SECTION 3: Publications -->
 <section id="publications" class="publications-section">
     <h2>Publications</h2>
     
@@ -7,15 +7,15 @@
         <ul>
             {% for publication in site.publications %}
             <li>
-                <a href="{{ publication.url }}">{{ publication.title }}</a>
                 {% if publication.conference %}
                 <div class="conference">
                     <h3>Conference Details</h3>
-                    <p>Name: {{ publication.conference.name }}</p>
-                    <p>Date: {{ publication.conference.date }}</p>
-                    <p>Location: {{ publication.conference.location }}</p>
+                    <p>{{ publication.conference.name }}</p>
+                    <p>{{ publication.conference.date }}</p>
+                    <p>{{ publication.conference.location }}</p>
                 </div>
                 {% endif %}
+                <a href="{{ publication.url }}">{{ publication.title }}</a>
             </li>
             {% endfor %}
         </ul>
