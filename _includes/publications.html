@@ -8,18 +8,17 @@
             {% for publication in site.publications %}
             <li>
                 <a href="{{ publication.url }}">{{ publication.title }}</a>
-                <p>Published in: {{ publication.published_in }}</p>
+                <p>{{ publication.published_in }}</p>
                 
                 {% if publication.conference %}
                 <div class="conference">
-                    <h3>Conference Details</h3>
-                    <p>Name: {{ publication.conference.name }}</p>
-                    <p>Date: {{ publication.conference.date }}</p>
-                    <p>Location: {{ publication.conference.location }}</p>
+                    <p>{{ publication.conference.name }}</p>
+                    <p>{{ publication.conference.date }}</p>
+                    <p>{{ publication.conference.location }}</p>
                 </div>
                 {% endif %}
                 
-                <p>Description: {{ publication.description }}</p>
+                <p>{{ publication.description }}</p>
             </li>
             {% endfor %}
         </ul>
