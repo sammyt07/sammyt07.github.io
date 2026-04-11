@@ -1,10 +1,8 @@
 <!-- SECTION 3: Lab Information -->
 <section id="lab-info" class="lab-info-section">
-    <h2>Lab Information</h2>
-    
     {% if site.lab %}
+    <h2>{{ site.lab.name }}</h2>
     <div class="lab-details">
-        <h3>{{ site.lab.name }}</h3>
         <p>{{ site.lab.description }}</p>
         <p>Website: <a href="{{ site.lab.website }}" target="_blank">{{ site.lab.website }}</a></p>
     </div>
