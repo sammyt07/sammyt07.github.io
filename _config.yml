@@ -1,95 +1,59 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-
 # Main Page Setup
-
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
+title: Sammy Tribble's Portfolio | Hello, world! # This is what shows up in the tab of the browser
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: Sammy Tribble
+headline: I am a test bed engineer.
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am an aerospace robotics student at Harvey Mudd College passionate about autonomous navigation and space exploration. I enjoy designing rover test beds and experiments that evaluate autonomous navigation tasks, like identifying sources of localization error or performing image segmentation. I'm researching Mars-Analog environments and I'm designing a high-fidelity simulation tool for Mars rovers with the Unreal Engine, which addresses the sim-to-real gap: the ability of modern simulation tools to emulate realism between robotics sensor inputs and feedback. 
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
-
+profile_image: ./assets/images/profile-image/avatar.jpg
 
 # Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
-
+resume: ./assets/resume/Resume.pdf
 
 # Set up external links - this will show up as small icons next to your name.
-
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
+  linkedin: samuel-tribble-a5071328b    # https://www.linkedin.com/in/samuel-tribble-a5071328b/
+  github: sammyt07    # https://github.com/sammyt07/
+
+# Publications Section - this shows my research work.
+publications:
+- title: "Synthetic Martian Terrain Generation Using Adaptive Diffusion Models" 
+  url: https://www.sciencedirect.com/science/article/pii/S1877050925025402
+
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: Software Engineering
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - VS Code
+    - Jupyter Notebook
+    - Git/GitHub
+    - C++
+    - Python
+    - Linux (Ubuntu 20.04)
+  - category: Robotics Prototyping
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
+    - ROS 2 (foxy/humble)
+    - 3D Printing
+    - NVIDIA Jetbot-mini
+    - ROBOTIS TurtleBot
+    - Arduino / Raspberry Pi / NVIDIA Jetson Nano
     - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+  - category: 3D Simulation
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
-    tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Blender (for making low-fidelity primitives and animations used for prototyping)
+    - Gazebo
+    - Unreal Engine
+    - Godot
+    - Unity
 
-
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
-
+# Add personal email for contact.
+contact:
+- email: sammy.l.tribble@gmail.com
 
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
@@ -100,41 +64,6 @@ colors: # this is the basic theme
   highlight: "#0c0cf2"
   background: "#ffffff"
   light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
-
 
 
 
