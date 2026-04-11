@@ -7,8 +7,8 @@
         <ul>
             {% for publication in site.publications %}
             <li>
-                <a href="{{ publication.url }}">{{ publication.title }}</a>
-                <p>{{ publication.published_in }}</p>
+                <a href="{{ publication.url }}" target="_blank">{{ publication.title }}</a>
+                <p><i>{{ publication.published_in }}</i></p>
                 
                 {% if publication.conference %}
                 <div class="conference">

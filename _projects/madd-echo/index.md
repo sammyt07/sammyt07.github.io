@@ -20,6 +20,12 @@ main-image: /echo_demo.png
 - Control of lighting and hazardous weather conditions (e.g., Martian Sol day-night cycles and Mars sand storms).
 - Taking rover surface imagery for synthetic datasets. 
 
-{% include image-gallery.html images="echo_demo_1.png" height="400" %} "Discovery rover detects rock field at Site Marvin in control conditions" - the user-controllable rover, modeled after Mars Exploration Rovers (MERs) Spirit and Opportunity, runs image segmentation on a terrain class, rock field, at a designated site of interest in the simulator level landscape. This is in control conditions with midday lighting and no weather conditions.
+<div style="text-align: center;">
+    <img src="{{ page.url | remove: 'index' | remove: '.html' }}echo_demo_1.png" alt="Discovery rover detects rock field at Site Marvin" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>"Discovery rover detects rock field at Site Marvin in control conditions" - the user-controllable rover, modeled after Mars Exploration Rovers (MERs) Spirit and Opportunity, runs image segmentation on a terrain class, rock field, at a designated site of interest in the simulator level landscape. This is in control conditions with midday lighting and no weather conditions.</p>
+</div>
 
-{% include image-gallery.html images="echo_demo_2.png" height="400" %} "Discovery rover detects rock field at Site Marvin in Hazardous Sand Storm Conditions" - the user-controllable rover runs image segmentation while in a Mars sand storm. It can be observed that performance drops and the segmentation model no longer draws masks.
+<div style="text-align: center;">
+    <img src="{{ page.url | remove: 'index' | remove: '.html' }}echo_demo_2.png" alt="Discovery rover detects rock field at Site Marvin in Hazardous Sand Storm Conditions" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>"Discovery rover detects rock field at Site Marvin in Hazardous Sand Storm Conditions" - the user-controllable rover runs image segmentation while in a Mars sand storm. It can be observed that performance drops and the segmentation model no longer draws masks. </p>
+</div>

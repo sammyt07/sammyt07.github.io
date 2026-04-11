@@ -9,21 +9,24 @@ skills:
 - TurtleBot3
 - Gazebo Classic
 - RViz
-main-image: /pilgrim_demo_1.png
+main-image: /pilgrim_demo.png
 ---
 
 ## Research Inquiry:
 Pilgrim is my application of Harvey Mudd College's CSCI-035: Computing Science for Insight with ROS 2, Gazebo, and TurtleBot to ask, "how does simulating weather condtions (i.e., Mars sand storms) influence the LiDAR measurements of a planetary rover (TurtleBot3's are standard for Lunar/Martian exploration research)?"
 
-<div class="image-gallery-container">
-  {% include image-gallery.html images="pilgrim_demo_1.png" height="400" %} "Pilgrim rover is traversing terrain with cubes, spheres, and a lambda" - this is the control scenario with no weather conditions.
+<div style="text-align: center;">
+  <img src="{{ page.url | remove: 'index' | remove: '.html' }}pilgrim_demo_1.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+  <p>"Pilgrim rover is traversing terrain with cubes, spheres, and a lambda" - this is the control scenario with no weather conditions.</p>
 </div>
 
-<div class="image-gallery-container">
-  {% include image-gallery.html images="pilgrim_demo_scan.png" height="400" %} "LiDAR measurements in RViz" - this is Pilgrim's LiDAR data of the terrain in  control conditions, visualized in RViz.
+<div style="text-align: center;">
+    <img src="{{ page.url | remove: 'index' | remove: '.html' }}pilgrim_demo_scan.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>"LiDAR measurements in RViz" - this is Pilgrim's LiDAR data of the terrain in  control conditions, visualized in RViz.</p>
 </div>
 
-## Results:
-<div class="image-gallery-container">
-  {% include image-gallery.html images="lidar_noise_hist.png" height="400" %} A comparison of LiDAR data between control and sand storm conditions shows that LiDAR becomes less accurate in hazardous conditions. Be advised!
+<div style="text-align: center;">
+    <h2><b>Results</b></h2>
+    <img src="{{ page.url | remove: 'index' | remove: '.html' }}lidar_noise_hist.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>A comparison of LiDAR data between control and sand storm conditions shows that LiDAR becomes less accurate in hazardous conditions. Be advised!</p>
 </div>

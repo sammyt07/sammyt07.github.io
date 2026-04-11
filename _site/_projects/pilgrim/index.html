@@ -52,30 +52,55 @@
        
         
                
-        <img src="/Reference/template.mdproject-image.webp" alt=" image">
+        <img src="/_projects/pilgrim/pilgrim_demo.png" alt="Pilgrim (TurtleBot3) Planetary Rover image">
         
         <div class="title-header">
-            <h1></h1>
+            <h1>Pilgrim (TurtleBot3) Planetary Rover</h1>
         </div>
         
         <div class="project-description">
             <h2>Project Overview</h2>
-            <p></p>
+            <p>Pilgrim is a ROS 2 TurtleBot lidar noise injection node in normal and dust / sandstorm conditions. I include a demo here for demonstration of TurtleBot3 navigation with ML-based LiDAR sensor noise injection and comparison.</p>
         </div>
         <div class="skills-card">
             <h2>Skills Used</h2> 
             <div class="skills-list">
                 
-                <span class="skill"></span>    
+                <span class="skill">ROS 2 Foxy</span>    
                 
-                <span class="skill"></span>    
+                <span class="skill">Python</span>    
+                
+                <span class="skill">Linux (Ubuntu 20.04)</span>    
+                
+                <span class="skill">TurtleBot3</span>    
+                
+                <span class="skill">Gazebo Classic</span>    
+                
+                <span class="skill">RViz</span>    
                 
             </div>
         </div>
     </div>
       
     <div class="content">
-        
+        <h2 id="research-inquiry">Research Inquiry:</h2>
+<p>Pilgrim is my application of Harvey Mudd College’s CSCI-035: Computing Science for Insight with ROS 2, Gazebo, and TurtleBot to ask, “how does simulating weather condtions (i.e., Mars sand storms) influence the LiDAR measurements of a planetary rover (TurtleBot3’s are standard for Lunar/Martian exploration research)?”</p>
+
+<div style="text-align: center;">
+  <img src="/_projects/pilgrim/pilgrim_demo_1.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+  <p>"Pilgrim rover is traversing terrain with cubes, spheres, and a lambda" - this is the control scenario with no weather conditions.</p>
+</div>
+
+<div style="text-align: center;">
+    <img src="/_projects/pilgrim/pilgrim_demo_scan.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>"LiDAR measurements in RViz" - this is Pilgrim's LiDAR data of the terrain in  control conditions, visualized in RViz.</p>
+</div>
+
+<div style="text-align: center;">
+    <h2><b>Results</b></h2>
+    <img src="/_projects/pilgrim/lidar_noise_hist.png" style="width: 80%; height: auto; display: block; margin: 0 auto;" />
+    <p>A comparison of LiDAR data between control and sand storm conditions shows that LiDAR becomes less accurate in hazardous conditions. Be advised!</p>
+</div>
 
     </div>
 </div>

@@ -39,9 +39,10 @@ publications:
 
 # Aerospace Interests Section - demonstrate roles for me to focus on.
 areas_of_interest:
-- Flight Test Software
-- RF Engineering
-- Missions Operations Engineering
+- Flight Test Software Engineering
+- Terrain-relative Navigation
+- Vehicle Safety Engineering
+- Risk Modeling, Simulating, and Integration
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
@@ -87,7 +88,7 @@ colors: # this is the basic theme
   link: "#4a76ee"
   highlight: "#0c0cf2"
   background: "#d1f0ff"
-  light_background: "#f3f5fb"
+  light_background: "#ffd700"
 
 
 
